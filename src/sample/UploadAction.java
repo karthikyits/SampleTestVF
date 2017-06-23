@@ -1,3 +1,9 @@
+package sample;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
 public class UploadAction extends ActionSupport {
   private File uploadedFile;
   // setter and getter for uploadedFile
